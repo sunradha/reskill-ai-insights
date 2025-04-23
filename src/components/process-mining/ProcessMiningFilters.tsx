@@ -62,9 +62,9 @@ export function ProcessMiningFilters({ queryType, onChange }: ProcessMiningFilte
           onChange={onChange}
         >
           <option value="">All Levels</option>
-          <option value="high">High Risk (>0.66)</option>
+          <option value="high">High Risk (&gt;0.66)</option>
           <option value="medium">Medium Risk (0.33-0.66)</option>
-          <option value="low">Low Risk (<0.33)</option>
+          <option value="low">Low Risk (&lt;0.33)</option>
         </select>
       </div>
     );
